@@ -1,0 +1,2 @@
+# fast_deployment_beacon_reference_implementation
+fast deployment beacon reference implementation
