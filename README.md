@@ -6,6 +6,9 @@ Beacon v2 is an API specification established by the Global Alliance for Genomic
 
 The current version of the specification is v2 and consists of two components, the Framework and the Models. The Framework defines the format for the requests and responses, whereas the Models define the structure of the biological data response. The overall function of these two components is to provide the instructions to design a REST API (REpresentational State Transfer Application Programming Interface) with OpenAPI Specification (OAS). The OAS defines a standard, language-agnostic interface that is used by software developers to implement REST APIs.
 
+![beacon_framwork_models](https://b2ri-documentation.readthedocs.io/en/latest/img/framework-and-models.png)
+
+
 # Beacon V2 Reference Implementation
 
 To demonstrate Beacon v2 capabilities and to facilitate the adoption, ELIXIR organization has been funding the development of the Beacon v2 Reference Implementation (B2RI). Developed at the Centre for Genomic Regulation (CRG), the B2RI is a free open source Linux-based set of tools that allow lighting up a Beacon out-of-the-box.
@@ -21,7 +24,7 @@ The B2RI is conceived as a customizable local solution, delivered with a basic c
 
 # Fast Deployment Beacon Reference Implementation Server
 The B2RI 
-![My Image](Screenshot%20from%202022-12-13%2011-09-05.png)
+![B2Ri containers](Screenshot%20from%202022-12-13%2011-09-05.png)
 
 # Citation
 
