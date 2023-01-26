@@ -14,7 +14,7 @@ To demonstrate Beacon v2 capabilities and to facilitate the adoption, ELIXIR org
 
 The B2RI is conceived as a customizable local solution, delivered with a basic configuration. The software is written in Python, Perl and Bash and has a command-line interface (CLI) for control and operation.
 
-# Fast Deployment Beacon Reference Implementation Server
+# Dockerized Deployment Beacon Reference Implementation Server
 
 Here, we present a proof of concept for the dockerized deployment of the beacon v2 reference implementation. 
  
@@ -36,8 +36,8 @@ Open ports - 27017, 8080, 8081, 5050
 ```
 
 ```
-docker-compose
-mongoimport
+docker-compose <a href="https://docs.docker.com/compose/install/" target="_blank">docker-compose</a>
+mongoimport <a href="https://www.mongodb.com/docs/database-tools/installation/installation/" target="_blank">mongoimport</a>
 ```
 
 ## install
