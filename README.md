@@ -33,7 +33,7 @@ Here, we present a proof of concept for the dockerized deployment of the beacon 
  * mongo-express, the container with web-based MongoDB admin interface. 
  * training-ui, the container with the django web app to query beacon.
 
-![B2Ri containers](Screenshot%20from%202022-12-13%2011-09-05.png)
+![beacon_v2_reference_implementation_dockerized_deploy](beacon_v2_reference_implementation_dockerized_deploy.png)
 
 # Installation
 
