@@ -40,8 +40,8 @@ Here, we present a proof of concept for the dockerized deployment of the beacon 
 ## requires
 
 * Open ports 5050, 8080, 8081, 27017 
-* <a href="https://docs.docker.com/compose/install/" target="_blank">docker-compose</a>
-* <a href="https://www.mongodb.com/docs/database-tools/installation/installation/" target="_blank">mongoimport</a>
+* Install <a href="https://docs.docker.com/compose/install/" target="_blank">docker-compose</a>
+* Install <a href="https://www.mongodb.com/docs/database-tools/installation/installation/" target="_blank">mongoimport</a>
 
 ## install
 
