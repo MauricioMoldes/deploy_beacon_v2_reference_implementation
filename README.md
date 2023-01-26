@@ -45,6 +45,9 @@ Here, we present a proof of concept for the dockerized deployment of the beacon 
 
 ## Deploying the beacon
 
+In order to light the beacon, we will pull a small CINECA synthetic test dataset, hosted in EGA, and start the relevant beacon containers.
+The beacon reference implementation should be able to run on any modern system with 2 cores.  
+
 ```bash
 $ bash deploy_beacon_v2_reference_implementation.sh
 ```
