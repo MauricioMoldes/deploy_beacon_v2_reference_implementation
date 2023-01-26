@@ -1,4 +1,4 @@
-# Fast Deployment Beacon Reference Implementation Server
+# About
 
 # Beacon V2
 
@@ -23,10 +23,30 @@ The B2RI is conceived as a customizable local solution, delivered with a basic c
 
 # Fast Deployment Beacon Reference Implementation Server
 
-Here, we present a proof of concept for the deployment of the beacon v2 reference implementation.  
-The B2RI 
+Here, we present a proof of concept for the dockerized deployment of the beacon v2 reference implementation.  
+The B2RI  
 
 ![B2Ri containers](Screenshot%20from%202022-12-13%2011-09-05.png)
+
+# Installation
+
+## requirements
+
+```
+Open ports - 27017 ; 8080; 8081; 5050; 
+```
+```
+$ docker-compose
+$ mongoimport
+```
+
+## Install
+
+```bash
+$ bash deploy_beacon_implemenetation_programmatically.sh
+```
+
+## Usage
 
  * http://localhost:8080/ - training-ui
  * http://localhost:5050/api/ - beacon-api
