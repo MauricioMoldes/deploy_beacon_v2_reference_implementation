@@ -25,13 +25,13 @@ The B2RI is conceived as a customizable local solution, delivered with a basic c
 
 # Dockerized Deployment Beacon Reference Implementation Server
 
-Here, we present a proof of concept for the dockerized deployment of the beacon v2 reference implementation that includes the following containers: 
+Here, we present a proof of concept for the dockerized deployment of the beacon v2 reference implementation that includes the following containers:
+ 
  * beacon-ri-tools, the container for loading metadata and genomic variants into a dataset.
  * mongo, the mongo database.
  * beacon, the container with the query engine.  
  * mongo-express, the container with web-based MongoDB admin interface. 
  * training-ui, the container with the django web app to query beacon.
-
 
 ![B2Ri containers](Screenshot%20from%202022-12-13%2011-09-05.png)
 
@@ -53,8 +53,8 @@ $ bash deploy_beacon_implemenetation_programmatically.sh
 
 Access the beacon reference implementation on your localhost: 
 
- * http://localhost:8080/ - training-ui
  * http://localhost:5050/api/ - beacon-api
+ * http://localhost:8080/ - training-ui
  * http://localhost:8081 - mongo-express
 
 
@@ -65,5 +65,3 @@ Rueda, M, Ariosa R. "Beacon v2 Reference Implementation: a toolkit to enable fed
 # Acknowledgement
 
 This study was funded by ELIXIR, the research infrastructure for life-science data (ELIXIR Beacon Implementation Studies 2019-2021 and 2022-2023).
-
-
