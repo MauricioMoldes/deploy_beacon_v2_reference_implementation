@@ -12,6 +12,12 @@ The current version of the specification is v2 and consists of two components, t
 
 To demonstrate Beacon v2 capabilities and to facilitate the adoption, ELIXIR organization has been funding the development of the Beacon v2 Reference Implementation (B2RI). Developed at the Centre for Genomic Regulation (CRG), the B2RI is a free open source Linux-based set of tools that allow lighting up a Beacon out-of-the-box.
 
+The B2RI is conceived as a customizable local solution, delivered with a basic configuration. The software is written in Python, Perl and Bash and has a command-line interface (CLI) for control and operation.
+
+# Fast Deployment Beacon Reference Implementation Server
+
+Here, we present a proof of concept for the dockerized deployment of the beacon v2 reference implementation. 
+ 
 The B2RI includes:
 
  * Tools for loading metadata (including phenotypic data) and genomic variants (from a VCF file) into a database.
@@ -19,28 +25,22 @@ The B2RI includes:
  * The Beacon query engine (i.e., REST API).
  * An example dataset consisting of synthetic-data (CINECA synthetic cohort EUROPE UK1).
 
-The B2RI is conceived as a customizable local solution, delivered with a basic configuration. The software is written in Python, Perl and Bash and has a command-line interface (CLI) for control and operation.
-
-# Fast Deployment Beacon Reference Implementation Server
-
-Here, we present a proof of concept for the dockerized deployment of the beacon v2 reference implementation.  
-The B2RI  
-
 ![B2Ri containers](Screenshot%20from%202022-12-13%2011-09-05.png)
 
 # Installation
 
-## requirements
+## requires
 
 ```
-Open ports - 27017 ; 8080; 8081; 5050; 
-```
-```
-$ docker-compose
-$ mongoimport
+Open ports - 27017, 8080, 8081, 5050
 ```
 
-## Install
+```
+docker-compose
+mongoimport
+```
+
+## install
 
 ```bash
 $ bash deploy_beacon_implemenetation_programmatically.sh
