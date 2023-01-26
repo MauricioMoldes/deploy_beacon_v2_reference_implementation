@@ -19,6 +19,10 @@ The B2RI includes:
 
 The B2RI is conceived as a customizable local solution, delivered with a basic configuration. The software is written in Python, Perl and Bash and has a command-line interface (CLI) for control and operation.
 
+# Fast Deployment Beacon Reference Implementation Server
+The B2RI 
+![My Image](Screenshot%20from%202022-12-13%2011-09-05.png)
+
 # Citation
 
 Rueda, M, Ariosa R. "Beacon v2 Reference Implementation: a toolkit to enable federated sharing of genomic and phenotypic data". Bioinformatics, btac568, https://doi.org/10.1093/bioinformatics/btac568
@@ -27,4 +31,4 @@ Rueda, M, Ariosa R. "Beacon v2 Reference Implementation: a toolkit to enable fed
 
 This study was funded by ELIXIR, the research infrastructure for life-science data (ELIXIR Beacon Implementation Studies 2019-2021 and 2022-2023).
 
-![My Image](Screenshot%20from%202022-12-13%2011-09-05.png)
+
