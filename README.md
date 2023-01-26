@@ -43,7 +43,7 @@ Here, we present a proof of concept for the dockerized deployment of the beacon 
 * Install <a href="https://docs.docker.com/compose/install/" target="_blank">docker-compose</a>
 * Install <a href="https://www.mongodb.com/docs/database-tools/installation/installation/" target="_blank">mongoimport</a>
 
-## install
+## Deploying the beacon
 
 ```bash
 $ bash deploy_beacon_implemenetation_programmatically.sh
