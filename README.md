@@ -26,6 +26,12 @@ The B2RI is conceived as a customizable local solution, delivered with a basic c
 The B2RI 
 ![B2Ri containers](Screenshot%20from%202022-12-13%2011-09-05.png)
 
+ * http://localhost:8080/ - training-ui
+ * http://localhost:5050/api/ - beacon-api
+ * http://localhost:27017 - mongo-db
+ * http://localhost:8081 - mongo-express
+
+
 # Citation
 
 Rueda, M, Ariosa R. "Beacon v2 Reference Implementation: a toolkit to enable federated sharing of genomic and phenotypic data". Bioinformatics, btac568, https://doi.org/10.1093/bioinformatics/btac568
