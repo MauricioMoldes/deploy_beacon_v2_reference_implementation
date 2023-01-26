@@ -23,7 +23,7 @@ The B2RI includes:
 
 The B2RI is conceived as a customizable local solution, delivered with a basic configuration. The software is written in Python, Perl and Bash and has a command-line interface (CLI) for control and operation.
 
-# Dockerized Deployment Beacon Reference Implementation Server
+# Dockerized Deployment Beacon V2 Reference Implementation Server
 
 Here, we present a proof of concept for the dockerized deployment of the beacon v2 reference implementation that includes the following containers:
  
