@@ -51,7 +51,7 @@ $ bash deploy_beacon_implemenetation_programmatically.sh
 
 ## Usage
 
-Access the beacon reference implementation services: 
+Access the beacon reference implementation on your localhost: 
 
  * http://localhost:8080/ - training-ui
  * http://localhost:5050/api/ - beacon-api
