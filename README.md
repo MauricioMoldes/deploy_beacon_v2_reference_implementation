@@ -12,10 +12,10 @@ To demonstrate Beacon v2 capabilities and to facilitate the adoption, ELIXIR org
 
 The B2RI includes:
 
--Tools for loading metadata (including phenotypic data) and genomic variants (from a VCF file) into a database.
--A MongoDB database.
--The Beacon query engine (i.e., REST API).
--An example dataset consisting of synthetic-data (CINECA synthetic cohort EUROPE UK1).
+ * Tools for loading metadata (including phenotypic data) and genomic variants (from a VCF file) into a database.
+ * A MongoDB database.
+ * The Beacon query engine (i.e., REST API).
+ * An example dataset consisting of synthetic-data (CINECA synthetic cohort EUROPE UK1).
 
 The B2RI is conceived as a customizable local solution, delivered with a basic configuration. The software is written in Python, Perl and Bash and has a command-line interface (CLI) for control and operation.
 
