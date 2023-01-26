@@ -46,7 +46,7 @@ Here, we present a proof of concept for the dockerized deployment of the beacon 
 ## Deploying the beacon
 
 ```bash
-$ bash deploy_beacon_implemenetation_programmatically.sh
+$ bash deploy_beacon_v2_reference_implementation.sh
 ```
 
 ## Usage
