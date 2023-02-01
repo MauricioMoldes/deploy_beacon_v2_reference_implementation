@@ -9,7 +9,12 @@ cd data
 ## Get BFF files
 ################################################################
 
-wget ftp://FTPuser:FTPusersPassword@xfer13.crg.eu:221/external_files/ECCB_demo/*.json
+wget ftp://FTPuser:FTPusersPassword@xfer13.crg.eu:221/external_files/ECCB_demo/analyses.json
+wget ftp://FTPuser:FTPusersPassword@xfer13.crg.eu:221/external_files/ECCB_demo/biosamples.json
+wget ftp://FTPuser:FTPusersPassword@xfer13.crg.eu:221/external_files/ECCB_demo/cohorts.json
+wget ftp://FTPuser:FTPusersPassword@xfer13.crg.eu:221/external_files/ECCB_demo/datasets.json
+wget ftp://FTPuser:FTPusersPassword@xfer13.crg.eu:221/external_files/ECCB_demo/individuals.json
+wget ftp://FTPuser:FTPusersPassword@xfer13.crg.eu:221/external_files/ECCB_demo/runs.json
 wget ftp://FTPuser:FTPusersPassword@xfer13.crg.eu:221/external_files/ECCB_demo/genomicVariationsVcf.json.gz
 gunzip -k -d genomicVariationsVcf.json.gz
 
