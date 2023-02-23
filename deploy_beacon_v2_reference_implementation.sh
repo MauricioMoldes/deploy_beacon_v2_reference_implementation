@@ -24,7 +24,8 @@ cd ..
 ## Clone API repo
 ###################################################################
 
-git clone https://github.com/MauricioMoldes/beacon2-ri-api
+#git clone https://github.com/MauricioMoldes/beacon2-ri-api
+git clone https://github.com/costero-e/beacon2-ri-api.git
 cd beacon2-ri-api/deploy
 
 #####################################################################
@@ -57,3 +58,9 @@ docker-compose up -d mongo-express
 docker-compose up -d beacon
 docker-compose up -d training-ui
 #docker-compose up -d beacon-ri-tools
+
+#####################################################################
+## Re-index data 
+######################################################################
+
+docker exec beacon python beacon/reindex.py
