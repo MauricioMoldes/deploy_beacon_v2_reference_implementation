@@ -24,8 +24,7 @@ cd ..
 ## Clone API repo
 ###################################################################
 
-#git clone https://github.com/MauricioMoldes/beacon2-ri-api
-git clone https://github.com/costero-e/beacon2-ri-api.git
+git clone https://github.com/EGA-archive/beacon2-ri-api.git
 cd beacon2-ri-api/deploy
 
 #####################################################################
