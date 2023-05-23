@@ -63,3 +63,15 @@ docker-compose up -d training-ui
 ######################################################################
 
 docker exec beacon python beacon/reindex.py
+
+######################################################################
+## Extract filtering terms
+######################################################################
+
+docker exec beacon python beacon/db/extract_filtering_terms.py
+
+#######################################################################
+## Get descendents
+#######################################################################
+
+docker exec beacon python beacon/db/get_descendants.py
