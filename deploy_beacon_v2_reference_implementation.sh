@@ -27,6 +27,12 @@ cd ..
 git clone https://github.com/EGA-archive/beacon2-ri-api.git
 cd beacon2-ri-api/deploy
 
+####################################################################
+## Manually define AAI network (TMP)  
+####################################################################
+
+docker network create my-app-network
+
 #####################################################################
 ## Start DB Container
 #####################################################################
@@ -74,4 +80,4 @@ docker exec beacon python beacon/db/extract_filtering_terms.py
 ## Get descendents
 #######################################################################
 
-docker exec beacon python beacon/db/get_descendants.py
+#docker exec beacon python beacon/db/get_descendants.py
